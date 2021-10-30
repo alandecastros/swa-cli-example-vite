@@ -1,8 +1,6 @@
-import { AzureFunction, Context } from '@azure/functions'
+import { AzureFunction } from '@azure/functions'
 
-const httpTrigger: AzureFunction = async function (
-  context: Context,
-): Promise<void> {
+const httpTrigger: AzureFunction = async function (context) {
   const now = new Date(Date.now())
   const responseMessage = now + ' です'
   context.res = {
