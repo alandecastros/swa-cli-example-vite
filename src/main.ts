@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import Home from './pages/Home.vue'
-import Admin from './pages/Admin.vue'
-import Time from './pages/Time.vue'
+import Home from './pages/TheHome.vue'
+import Admin from './pages/TheAdmin.vue'
+import Time from './pages/TheTime.vue'
 import NotFound from './pages/NotFound.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 

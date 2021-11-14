@@ -8,6 +8,7 @@ import { defineComponent, onMounted, ref } from 'vue'
 import axios from 'axios'
 
 export default defineComponent({
+  name: 'TheTime',
   setup() {
     let utcTime = ref('未取得')
     onMounted(async () => {
