@@ -2,9 +2,7 @@
   "routes": [
     {
       "route": "/admin/*",
-      "allowedRoles": [
-        "admin"
-      ]
+      "allowedRoles": ["admin"]
     },
     {
       "route": "/login",
@@ -21,10 +19,6 @@
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": [
-      "/assets/*.{js,map}",
-      "/assets/*.{png,jpg,gif}",
-      "/assets/*"
-    ]
+    "exclude": ["/assets/*.{js,map}", "/assets/*.{png,jpg,gif}", "/assets/*"]
   }
 }
